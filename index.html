@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+        <!-- <style>
+            /* table,tr,th,td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            } */
+       
+        </style> -->
+        <link rel="stylesheet" href="calculator.css">
+        
+    </head>
+    <body>
+        <div id="first">
+            <div id="second">
+                
+                <button id="demo1"></button>
+                <button id="demo" ></button>
+                <div id="third">    
+                    <button class="one" id="one" ></button>
+                    <button class="one" id="one" >&#165;</button>
+                    <button class="one" id="clear">&copy;</button>
+                    <button class="one" id="back" >&lt;=</button>
+                    <button class="one" id="one" onclick="appendValue('1')">1</button>
+                    <button class="one" id="one" onclick="appendValue('2')">2</button>
+                    <button class="one" id="one" onclick="appendValue('3')">3</button>
+                    <button class="two" id="divide" onclick="appendValue('/')">/</button>
+                    <button class="one" id="one" onclick="appendValue('4')">4</button>
+                    <button class="one" id="one" onclick="appendValue('5')">5</button>
+                    <button class="one" id="one" onclick="appendValue('6')">6</button>
+                    <button class="two" id="multiply" onclick="appendValue('*')">x</button>
+                    <button class="one" id="one" onclick="appendValue('7')">7</button>
+                    <button class="one" id="one" onclick="appendValue('8')">8</button>
+                    <button class="one" id="one" onclick="appendValue('9')">9</button>
+                    <button class="two" id="minus" onclick="appendValue('-')">-</button>
+                    <button class="one" id="one" onclick="appendValue('.')">.</button>
+                    <button class="one" id="one" onclick="appendValue('0')">0</button>
+                    <button class="one" id="result">=</button>
+                    <button class="two" id="plus" onclick="appendValue('+')">+</button>
+                </div>
+            </div>
+        </div><br><br>
+        <div id="tigerdiv">
+            <canvas id="canvas"></canvas>
+        </div>
+        <script src="java.js"></script>
+    </body>
+</html>
